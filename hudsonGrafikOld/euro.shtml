@@ -1,0 +1,43 @@
+<!-- header title -->
+		<div id="title">
+			<h1>Hudson Grafik of Kiel, Germany</h1>
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office" class="selected">European Office</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="rates">Contact / Rates</a></li>
+				<li id="partners"><a href="<?php echo $myDir;?>?p=partners" title="partners">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="left_col">
+			<img src="./grfx/sonja_icon.jpg" width="137" height="170"/>
+			<h1>Sonja Franken, European Operations</h1>
+		</div>
+		<div id="right_col">
+			<h1>Contact Our European Office ...</h1>
+			<p>Based in the port city of Kiel, and staffed by Sonja Franken, Hudson Grafik Service's
+        	Director of European operations, our European office has an
+        	established presence in Germany and the greater European Union. Feel free to
+        	contact Sonja with questions about our service, support and used equipment.</p>
+
+			<p><strong>Hudson Grafik Services, Inc.</strong><br>
+
+			Rosensteg 1a<br>
+
+			D24149 Kiel<br>
+			Germany</p>
+
+			<p>Telephone and Fax: +49-431-530-2962<br>
+			Mobile: +49-178-470-1991<br>
+			E-mail: <a href="mailto: sonja@hudsongrafik.com">sonja@hudsongrafik.com</a></p>
+
+		</div>
+	</div>

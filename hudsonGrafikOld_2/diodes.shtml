@@ -1,0 +1,70 @@
+<!-- header title -->
+		<div id="title">
+			<h1>Refurbished Laser Diodes</h1>
+			
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office">European Office</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="rates">Rates</a></li>
+				<li id="partners"><a href="<?php echo $myDir;?>?p=partners" title="partners">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		
+		<div id="left_col">
+			<img src="/grfx/laser_diode.gif" width="139" height="167" alt="32-channel laser diode refurbished by Hudsongrafik" />
+			<strong>HGS</strong> offers refurbished laser diodes for 32 &amp; 64-channel recording heads as found 
+			in these common Thermal Plate Recorders:
+			<ul>
+				<li>Heidelberg Topsetter</li>
+				<li>Screen PlateRite</li>
+				<li>Agfa Acento</li>
+				<li>Fuji Javelin</li>
+			</ul>
+			<img src="/grfx/64-channel_diode.gif" width="139" height="534" alt="64-channel laser diode refurbished by Hudsongrafik" />
+
+		</div>
+		<div id="right_col">
+		
+			<img src="/grfx/1900.gif" width="191" height="63" alt="$1900 (usd) for onsite install" />
+			<img src="/grfx/1500.gif" width="191" height="63" alt="$1500 (usd) with exchange" />
+		
+			<h1>Guaranteed for ONE FULL YEAR.</h1>
+			<p>All of our diodes are Guaranteed for ONE FULL YEAR. Our precision alignment and commitment 
+			to invest the necessary time it takes to bore-site the output to perfection, means <strong>HGS Laser Diodes 
+			will last longer and deliver a sharply focused burn on the final product.</strong></p>
+			
+			<h1>Comptetitively Priced</h1>
+			<p>Our legendary quality is priced right, too. We offer the following purchase options:
+			
+			<ul>
+				<li><strong>$1500.00 (USD)</strong><br />
+				Single Diode purchase with exchange of old Diode housing</li>
+				
+				<li><strong>$1900.00 (USD)</strong><br />
+				Single Diode purchase with on-site service to install Diode</li>
+			</ul></p>
+			
+			<h1>On-site Expertise</h1>
+			<p>While on-site we perform a Preventive Maintenance at no extra charge, including:
+			<ul>
+				<li><strong>Optical Cleaning</strong></li>
+				<li><strong>Roller Cleaning</strong></li>
+				<li><strong>Filter Cleaning</strong></li>
+				<li><strong>Exposure Evaluation</strong><br />
+				<i>using a 100X microscope adjusting Zoom, Focus, and Light settings if necessary.</i></li>
+			</ul>
+			<strong>Travel Charges to most locations in the USA and Germany are included in our pricing.</strong>
+			</p>
+			<h1>Dealer Pricing</h1>
+			<p>Dealer pricing is also available for quantity purchases. <strong><a href="mailto:karl@hudsongrafik.com">Contact Us</a></strong> for a quote via telephone or email</p>
+		</div>
+	</div>

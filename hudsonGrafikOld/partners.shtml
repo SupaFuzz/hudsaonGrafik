@@ -1,0 +1,41 @@
+<!-- header title -->
+		<div id="title">
+			<h1>Partners</h1>
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office">European Office</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="rates">Rates / Contact</a></li>
+				<li id="partners"><a href="<?php echo $myDir;?>?p=partners" title="partners" class="selected">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="left_col">
+			<img src="./grfx/partner_icon.gif" width="117" height="117" alt="hudsongrafik partner icon" />
+		</div>
+		<div id="right_col">
+			
+			<a href="http://www.hartmutdau-service.de/"><img 
+				src="./grfx/hartmut_dau_icon.jpg" width="400" height="100" alt="DK graphic solutions icon" class="partner" border="0"
+			/></a>
+			<a href="http://www.dk-gs.com"><img 
+				src="./grfx/dkgraphicsolutions_icon.jpg" width="400" height="100" alt="DK graphic solutions icon" class="partner" border="0"
+			/></a>
+			<a href="http://www.silverfast.com/"><img
+				src="./grfx/Aistudio2.gif" width="258" height="212" alt="aistudio logo and interface" class="partner" border="0"
+			/><a/>
+			<a href="http://pages.juiceplus.com/+franken5430d?CT=ueeb15n5qejvl7mi51p4ui7hbus0aa7i"><img
+				src="./grfx/JPlus.jpg" width="238" height="277" alt="Juice Plus+" class="partner" border="0"
+			/><a/>
+			<a href="http://www.finnhandel.com/"><img
+				src="./grfx/finnhandlogo.jpg" width="350" height="100" alt="Juice Plus+" class="partner" border="0"
+			/><a/>
+		</div>
+	</div>

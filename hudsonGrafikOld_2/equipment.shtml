@@ -1,0 +1,36 @@
+<!-- header title -->
+		<div id="title">
+			<h1>Parts and Used Equipment</h1>
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment" class="selected">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office">European Office</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="contact">Contact / Rates</a></li>
+				<li id="partners"><a href="<?php echo $myDir;?>?p=partners" title="partners">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+	
+		<p>We have many parts in stock, and many more available not listed here. If you don't see something you're looking for, give us a call! All equipment is actually in stock and ready for shipment!  Training and installation is available for an additional cost.  
+                 <p>***Some spare parts items reflect the exchange price, meaning we must get the old part back, such as laser diodes and mirror motors.
+        <ul>
+        	<li><strong>U.S. Tel.:</strong>  +1-404-849-4570</li>
+        	<li><strong>European Tel.:</strong> +49-431-530-2962</li>
+        </ul></p>
+
+	<h2>Product Inventory</h2>
+	<?php csv_table('equipment_list', './data/product_inventory.csv'); ?>
+	
+	<h2>Parts Inventory</h2>
+	<?php csv_table('parts_list', './data/parts_inventory.csv'); ?>
+	
+	
+	
+	</div>

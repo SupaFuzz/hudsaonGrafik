@@ -1,0 +1,45 @@
+<!-- header title -->
+		<div id="title">
+			<h1>About Hudson Grafik Service</h1>
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us" class="selected">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office">European Office</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="rates">Rates</a></li>
+				<li id="partners"><a href="<?php echo $myDir;?>?p=partners" title="partners">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="left_col">
+			<img src="./grfx/karl_icon.jpg" width="137" height="170"/>
+			<h1>Karl Hudson, Owner</h1>
+			<img src="./grfx/sonja_icon.jpg" width="137" height="170"/>
+			<h1>Sonja Franken, European Operations</h1>
+		</div>
+		<div id="right_col">
+			<h1>Karl Hudson</h1>
+			<p>Karl is a former employee of Hell/Linotype-Hell/Heidelberg and
+			many of you may know him already. He was a key player in their prepress
+			service organization for 20 years before leaving to start HGS in 2003.  He still works closely with Heidelberg to insure customer satisfaction across the board.</p>
+
+			<p><strong>HGS</strong> has established relationships with a vast network of reputable field service engineers and technicians making our global coverage possible.  We believe strongly in dependability, common sense, and integrity. </p>
+
+			<p><strong>Please call HGS for
+			all your parts, service, or used prepress needs!!!</strong></p>
+
+
+			
+
+
+			<h1>Sonja Franken</h1>
+			<p>Sonja is director of European Operations at Hudson Grafik Services and has over 
+			15 years experience in office management.  She is glad to be an integral part of HGS Europe while concentrating the rest of her time helping people and their pets to stay healthy through proper nutrition.  Feel free to call Sonja with any questions you may have.  She's got an answer for almost everything!    </p>
+		</div>
+	</div>
