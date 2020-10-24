@@ -1,0 +1,37 @@
+<!-- header title -->
+		<div id="title">
+			<h1>Rate Information</h1>
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office">European Office</a></li>
+				<li id="rates"><a href="<?php echo $myDir;?>?p=rates" title="rates" class="selected">Rates</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="rates">Rates</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="left_col">
+			<img src="./grfx/equipment_icons/herkules.jpg" width="83" height="83" alt="herkules icon"/>
+			<img src="./grfx/equipment_icons/linoscan.jpg" width="83" height="83" alt="linoscan icon"/>
+			<img src="./grfx/equipment_icons/topaz.jpg" width="83" height="83" alt="topaz icon"/>
+			<img src="./grfx/equipment_icons/signasetter_pro.jpg" width="83" height="83" alt="signasetter pro icon"/>
+			<img src="./grfx/equipment_icons/s3900.jpg" width="83" height="83" alt="s3900 icon"/>
+		</div>
+		<div id="right_col">
+			<p><strong>Travel Rate:</strong>  $100.00 per hour<br>
+			<strong>Labor Rate:</strong> $150.00 per hour<br>
+
+			<strong>Technical or Operator Training:</strong>  $120.00 per hour<br>
+			<strong>IT Services:</strong>  $100.00 per hour<br></p>
+
+			<p>Airfare, car rental, lodging, & shipping may incur extra charges.
+			Accepted forms of payment include cash, check, Paypal, or money order.</p>
+		</div>
+	</div>

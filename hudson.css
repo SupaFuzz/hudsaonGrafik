@@ -1,0 +1,321 @@
+body {
+	min-width:			615px;
+	text-align:			center;
+	font-family:			Optima, Trebuchet MS;
+	font-size:			1em;
+	color:				#404040;
+	background-color:	#FFFFFF
+}
+#centerwrap {
+	width:				615px;
+	margin:				10px auto;
+	text-align:			left;
+}
+
+/* BADGE */
+.hidem {
+	 display: 			none;
+}
+#badge {
+	width:				166px;
+	height:				164px;
+	background-repeat:		no-repeat;
+	overflow:			hidden;
+
+}
+#badge a {
+	display:			block;
+	overflow:			hidden;
+	height:				0;
+	padding:			164px 0px 0px 0px;
+}
+.badge_msie {
+	background:			url('./grfx/diode_badge_small_fix.gif');
+}
+.badge_moz {
+	background:			url('./grfx/diode_badge_small.png');
+}
+
+/* HEADER */
+#header {
+	width:				615px;                                 
+	height:				303px;
+	text-align:			right;
+	font-size:			.75em;
+	color:				#F3F3F3;
+	background:			url('./grfx/header3.gif');
+	background-repeat:	no-repeat;
+	background-color:	#F3F3F3;
+	margin-top:			10px;
+	display:			inline-block;
+}
+#header #address {
+	float:				left;
+	display:			block;
+	position:			relative;
+	left:				465px;
+	top:				60px;
+}
+#address h1 {
+	font-size:			1em;
+	margin:				0px;
+}
+#address p {
+	margin:				.3em;
+}
+#title {
+	display:			block;
+	float:				left;
+	width:				380px;
+	height:				5em;
+	overflow:			hidden;
+	position:			relative;
+	top:				200px;
+	left:				-115px;
+	padding:			10px;
+	color:				#404040;
+	text-align:			left;
+}
+#title h1 {
+	margin:				0px;
+	padding:			0px;
+	border-bottom:		1px #595959 dotted;
+}
+#title strong {
+	font-size:			1.2em;
+}
+*html #title h1 {
+	font-size:			1.5em;
+}
+
+
+/* HEADER MENU */
+#menu {
+	display:			block;
+	float:				right;
+	position:			relative;
+	top:				70px;
+	right:				45px;
+	height:				130px;
+	width:				143px;
+	text-align:			left;
+}
+*html #menu {
+	top:				80px;
+	t\op:				90px;
+	right:				37px;
+}
+*html #menu ul {
+	padding-top:		4px;	
+}
+#menu ul {
+	margin:				0px;
+	padding-top:		10px;
+	padding-left:		8px;
+}
+#menu li {
+	margin:				0px;
+	padding:			0px;
+	list-style:			none;
+	display:			inline;
+	overflow:			hidden;
+	height:				21px;
+}
+* html #menu li {
+	height:				22px;
+	h\eight:			23px;
+}
+#menu li a {
+	display:			block;
+	overflow:			hidden;
+	padding:			20px 0px 0px 0px;
+	height:				0;
+}
+#menu a:hover {
+	background-position: 0px -22px;
+}
+#menu a.selected {
+	background-position: 0px -22px;
+}
+
+
+/* CONTENT CONTAINER */
+#content {
+	overflow:			auto;
+	min-height:			300px;
+	width:				613px;
+	margin:				0px;
+	padding:			0px;
+	border-left:		1px #595959 solid;
+	border-right:		1px #595959 solid;
+	background-color:	#F3F3F3;
+}
+/* ie hack to make right border lign up */
+* html #content {
+        width:                  613px;
+        w\idth:                 615px;
+}
+#content p {
+	margin:					5px;
+	font-size:				.90em;
+}
+#content h2 {
+	margin:					3px;
+}
+
+
+
+/* CONTENT LEFT COLUMN */
+#left_col {
+	width:				147px;
+	padding-left:		10px;
+	font-size:			.7em;
+	float:				left;
+	border-right:		1px #595959 dotted;
+}
+#left_col h1 {
+	font-size:			1.2em;
+	font-weight:		bold;
+}
+#left_col ul {
+	padding:			10px;
+	margin:				0px;
+}
+#left_col ul li {
+	font-weight:		bold;
+}
+#left_col ul li ul li {
+	font-weight:		lighter;
+}
+
+
+
+/* CONTENT RIGHT COLUMN */
+#right_col {
+	width:				430px;
+	float:				right;
+	margin:				10px;
+	font-size:			.85em;
+}
+#right_col img {
+	float:				left;
+	padding:			5px;
+}
+#right_col img.partner {
+	float:				none;
+	clear:				both;
+	padding-bottom:		30px;
+}
+
+
+/* FOOTER */
+#footer {
+	width:				615px;
+	height:				33px;
+	background:			url('./grfx/bottom_swoosh.gif');
+	background-color:		#F3F3F3;
+	float:				right;
+}
+
+
+/* FOOTER MENU */
+#footer_menu ul {
+        float:                          right;
+	margin:				3px 0px 0px 0px;
+}
+#footer_menu li {
+	margin:				0px;
+	padding:			0px;
+	list-style:			none;
+	display:			inline;
+	overflow:			hidden;
+	height:				15px;
+	float:				right;
+}
+#footer_menu li a {
+	display:			block;
+	overflow:			hidden;
+	height:				0;
+	padding:			15px 0px 0px 0px;
+}
+#footer_menu a:hover {
+	background-position:	0px -15px;
+}
+
+
+/* EQUIPMENT LIST TABLES */
+._list {
+	width:				605px;
+	border:				1px #595959 solid;
+	background-color:		#E6E6E6;
+	margin-left:			5px;
+	font-size:			.85em;
+}
+
+._list .high {
+	background-color:	#CCCCCC;
+}
+
+._list .header {
+	font-weight:		bold;	
+}
+._list .hovered {
+	background-color:	#E8D451;
+}
+
+/* EQUIPMENT DETAIL BOX */
+._detail p {
+	text-align:		left;
+}
+._detail h1 {
+	text-align:		left;
+	font-size:		1.3em;
+	margin:			0px;
+}
+
+
+/* IMAGE REPLACEMENT */
+#main a {
+	width:		64px;
+	background: url('./grfx/home-3.gif');
+}
+#about a {
+	width: 		86px;
+	background: url('./grfx/about_us-3.gif');
+}
+#equip a {
+	width: 		143px;
+	background:	url('./grfx/used_equipment-3.gif');
+}
+#euro a {
+	width:		143px;
+	background:	url('./grfx/eu_office-3.gif');
+}
+#partners a {
+	width:		108px;
+	background:	url('./grfx/partners-3.gif');
+}
+#contact a {
+	width:		144px;
+	background:	url('./grfx/rates_contact-3.gif');
+}
+#xhtml a {
+	width:		38px;
+	background: url('./grfx/xhtml_button.gif');
+}
+#css a {
+	width:		38px;
+	background: url('./grfx/css_button.gif');
+}
+#hicox a {
+	width:		38px;
+	background: url('./grfx/hicox_button.gif');
+}
+#email a {
+	width:		38px;
+	background: url('./grfx/email_button.gif');
+}
+.icon {
+	padding:		5px 0 0 25px;
+	clear:			both;
+}

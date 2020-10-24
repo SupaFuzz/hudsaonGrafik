@@ -1,0 +1,64 @@
+<!-- header title -->
+		<div id="title">
+			<h1>Contact Information &amp; Rates</h1>
+		</div>
+	
+		<!-- header menu -->
+		<div id="menu">
+			<ul>
+				<li id="main"><a href="<?php echo $myDir; ?>" title="main">Main</a></li>
+				<li id="about"><a href="<?php echo $myDir;?>?p=about" title="about us">About Us</a></li>
+				<li id="equip"><a href="<?php echo $myDir;?>?p=equip" title="used equipment">Used Equipent</a></li>
+				<li id="euro"><a href="<?php echo $myDir;?>?p=euro" title="european office">European Office</a></li>
+				<li id="contact"><a href="<?php echo $myDir;?>?p=contact" title="rates" class="selected">Contact / Rates</a></li>
+				<li id="partners"><a href="<?php echo $myDir;?>?p=partners" title="partners">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="left_col">
+			<img src="./grfx/equipment_icons/herkules.jpg" width="83" height="83" alt="herkules icon" class="icon"/>
+			<img src="./grfx/equipment_icons/linoscan.jpg" width="83" height="83" alt="linoscan icon" class="icon"/>
+			<img src="./grfx/equipment_icons/topaz.jpg" width="83" height="83" alt="topaz icon" class="icon"/>
+			<img src="./grfx/equipment_icons/signasetter_pro.jpg" width="83" height="83" alt="signasetter pro icon" class="icon"/>
+			<img src="./grfx/equipment_icons/s3900.jpg" width="83" height="83" alt="s3900 icon" class="icon"/>		
+		</div>
+		<div id="right_col">
+			
+			<h2>Hudson Grafik Services, Inc.</h2>
+			<p>530 Collett Avenue SW<br/>
+			   Mableton, GA  30126  USA<br/>
+			   <strong>telephone:</strong> (678) 208-5844.<br/>
+
+			   <strong>e-mail:</strong> <a href="mailto: karl@hudsongrafik.com">karl@hudsongrafik.com</a>
+			</p>
+
+			<h2>Hudson Grafik Service, European Contact</h2>
+			<p>Rosensteg 1a<br/>
+			   D24149 Kiel<br/>
+
+			   Germany<br/>
+			   <strong>telephone:</strong> (+49) 431-530-2962<br/>
+			   <strong>fax:</strong> (+49) 431-204075<br/>
+			   <strong>mobile:</strong> (+49) 178-470-1991<br/>
+
+			   <strong>e-mail:</strong><a href="mailto: sonja@hudsongrafik.com">sonja@hudsongrafik.com</a>
+			</p>
+
+			<h2>Rate Information</h2>
+			<p><strong>Travel Rate:</strong>  $100.00 per hour<br>
+			<strong>Labor Rate:</strong> $150.00 per hour<br>
+
+			<strong>Telephone Support:</strong> $100.00 per hour<br>
+
+			<strong>Technical or Operator Training:</strong>  $150.00 per hour<br>
+			<strong>IT Services:</strong>  $120.00 per hour<br></p>
+
+			<p>Airfare, car rental, lodging, & shipping may incur extra charges.
+			Accepted forms of payment include bank transfer, cash, check, or Paypal.   </p>
+
+
+			
+		</div>
+	</div>
