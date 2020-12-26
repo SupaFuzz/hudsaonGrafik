@@ -38,7 +38,7 @@ body {
 
 /* HEADER */
 #header {
-	width:				615px;                                 
+	width:				615px;
 	height:				303px;
 	text-align:			right;
 	font-size:			.75em;
@@ -50,10 +50,11 @@ body {
 	display:			inline-block;
 }
 #header #address {
-	float:				left;
+	float:				right;
 	display:			block;
 	position:			relative;
-	left:				465px;
+	margin-right: 		.5em;
+	/*left:				465px;*/
 	top:				60px;
 }
 #address h1 {
@@ -71,7 +72,7 @@ body {
 	overflow:			hidden;
 	position:			relative;
 	top:				200px;
-	left:				-115px;
+	/*left:				-115px;*/
 	padding:			10px;
 	color:				#404040;
 	text-align:			left;
@@ -94,7 +95,7 @@ body {
 	display:			block;
 	float:				right;
 	position:			relative;
-	top:				70px;
+	top:				82px;
 	right:				45px;
 	height:				130px;
 	width:				143px;
@@ -106,7 +107,7 @@ body {
 	right:				37px;
 }
 *html #menu ul {
-	padding-top:		4px;	
+	padding-top:		4px;
 }
 #menu ul {
 	margin:				0px;
@@ -257,7 +258,7 @@ body {
 }
 
 ._list .header {
-	font-weight:		bold;	
+	font-weight:		bold;
 }
 ._list .hovered {
 	background-color:	#E8D451;

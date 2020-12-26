@@ -2,7 +2,7 @@
 		<div id="title">
 			<h1>About Hudson Grafik Service</h1>
 		</div>
-	
+
 		<!-- header menu -->
 		<div id="menu">
 			<ul>
@@ -15,13 +15,11 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<div id="content">
 		<div id="left_col">
 			<img src="./grfx/karl_icon.jpg" width="137" height="170"/>
 			<h1>Karl Hudson, Owner</h1>
-			<img src="./grfx/sonja_icon.jpg" width="137" height="170"/>
-			<h1>Sonja Franken, European Operations</h1>
 		</div>
 		<div id="right_col">
 			<h1>Karl Hudson</h1>
@@ -34,12 +32,5 @@
 			<p><strong>Please call HGS for
 			all your parts, service, or used prepress needs!!!</strong></p>
 
-
-			
-
-
-			<h1>Sonja Franken</h1>
-			<p>Sonja is director of European Operations at Hudson Grafik Services and has over 
-			15 years experience in office management.  She is glad to be an integral part of HGS Europe while concentrating the rest of her time helping people and their pets to stay healthy through proper nutrition.  Feel free to call Sonja with any questions you may have.  She's got an answer for almost everything!    </p>
 		</div>
 	</div>

@@ -1,0 +1,87 @@
+/*
+    bodyFrame
+*/
+div.bodyFrame {
+    display:                    grid;
+    place-items:                center;
+    width:                      100%;
+    height:                     100%;
+}
+
+/*
+    bkndFrame
+    widths per height: 0.953411665
+*/
+div.bkndFrame {
+    position:                   fixed;
+
+    width:                      85.807049875vh;
+    height:                     90%;
+    z-index:                    1;
+    border-radius:              1vw;
+    border:                     1px solid rgb(57,57,57);
+    background-color:           rgb(243,243,243);
+    background-clip:            border-box;
+    display:                    grid;
+    grid-template-columns:      1fr;
+    grid-template-rows:         minmax(auto, 100%) minmax(auto, 100%) minmax(auto, 100%);
+    align-items:                start;
+}
+/* heights per width: 0.356246845 */
+div.topSwooshBknd {
+    background:                 url('./gfx/top-swoop.svg');
+    background-repeat:          no-repeat;
+    background-size:            cover;
+    width:                      100%;
+    min-height:                 30.568490797vh;
+    border-top-right-radius:    1.05vw;
+    border-top-left-radius:     1.05vw;
+}
+/* heights per width:  0.047225706 */
+div.botSwooshBknd {
+    background:                 url('./gfx/bot-swoop.svg');
+    background-repeat:              no-repeat;
+    background-size:                cover;
+    width:                          100%;
+    min-height:                     4.05229851vh;
+    border-bottom-right-radius:     1.05vw;
+    border-bottom-left-radius:      1.05vw;
+    align-self:                     end;
+}
+
+
+/* global defaults */
+html, body {
+  position:                     fixed;
+  overflow:                     hidden;
+  height:                       100%;
+  width:                        100%;
+}
+
+body {
+	font-size:					2.5em;
+	font-family:				-apple-system, Helvetica, Arial, sans-serif;
+	margin:						0;
+	padding:					0;
+	text-align:					center;
+    /* default is dark mode */
+    background-color:           rgb(255,255,255);
+}
+button[data-default='true']{
+	font-weight:				bolder;
+}
+button {
+	user-select: 				none;
+    -webkit-user-select:        none;
+	border-radius:				.25em;
+	font-size:					1em;
+	padding:					.25em .5em .25em .5em;
+}
+button:focus {
+	outline: none;
+}
+input, select, textarea {
+	font-size:				1.25em;
+	border-radius: 			.4em;
+	padding:				.25em .5em .25em .5em;
+}

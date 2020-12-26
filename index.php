@@ -2,48 +2,48 @@
 
 #function for rendering csv tables
 	function csv_table($id,$file) {
-		
+
 		echo '<table id="' . $id . '" class="_list zebra">';
-		
+
 		$row = 1;
 		if (($handle = fopen($file, "r")) !== FALSE) {
 			while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 				$num = count($data);
-				
+
 				#tag first row as a header
 				if ($row == 1){
 					echo '<tr class="header">';
 				}else{
 					echo '<tr>';
 				}
-				
+
 				#spew every field as a column
 				for ($c=0; $c < $num; $c++) {
-					
+
 					#if this is the first column, we'll set a link
 					#and some inline content
 					if ($c == 0 and $row != 1){
-						
+
 						#the first column link and inline content
 						echo '<td>';
 						echo '<a class="fblink" href="#' . $id . $row . '_data">' . htmlentities($data[$c]) . '</a>';
 						echo '<div style="display:none" id="content">';
 						echo '<div id="' . $id . $row . '_data" class="_detail">';
-					
+
 							#content
-							
+
 							#the picture. if the csv-specified pic file exists use it
 							#otherwise use the default
-							if ( 
+							if (
 								(! is_null($data[$c+4])) AND
 								(file_exists('./grfx/inventory_pics/' . $data[$c+4]))
 							){
 								echo '<img src="/grfx/inventory_pics/'. $data[$c+4] . '" alt="picture of ' . htmlentities($data[$c]) . '" />';
-							}else{	
+							}else{
 								echo '<img src="/grfx/logo8.gif" alt="picture not available" />';
 								echo '<br /><i>picture not available</i>';
 							}
-							
+
 							#the rest
 							echo '<h1>' . htmlentities($data[$c]) . '</h1>';
 							echo '<p><strong>disposition: </strong>' . htmlentities($data[$c+1]) . '<br />';
@@ -54,10 +54,10 @@
 							echo 'call Karl or Sonja @<br />';
 							echo '<ul><li>European Tel.: +49-431-530-2962</li>';
 							echo '<li>U.S. Tel.: +1-404-849-4570</li></ul></div>';
-							
+
 						echo '</div></div>';
 						echo '</td>';
-						
+
 					#if this is the fifth column, it's the "picture file" column
 					#we just want to skip it
 					}elseif ($c == 4){
@@ -69,13 +69,13 @@
 						echo '<td>' . htmlentities($data[$c]) . '</td>';
 					}
 				}
-				
+
 				echo '</tr>';
 				$row ++;
 			}
 			fclose($handle);
 		}
-		
+
 		echo '</table>';
 	}
 
@@ -114,11 +114,11 @@
 	if ($p == "partners"){
 		$doc = "partners.shtml";
 	}
-	
+
 	if ($p == "diodes"){
 		$doc = "diodes.shtml";
 	}
-	
+
 	#document type definition
 	echo "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?".">";
 ?>
@@ -147,36 +147,36 @@ $(document).ready(function(){
 		$('#badge').hover(
 			function(){ $(this).css('opacity',1) },
 			function(){ $(this).css('opacity',.9) }
-		).aqFloater({attach: 'n', duration: 300, opacity: .9, offsetX:50, offsetY:15});
+		).aqFloater({attach: 'n', duration: 300, opacity: .9, offsetX:65, offsetY:15});
 	}else{
 		$('#badge').aqFloater({attach: 'nw', duration: 300, offsetX:150, offsetY:15});
 	}
-	
+
 	$('#badge').removeClass('hidem');
 	if ($.browser.msie) {
 		$('#badge').addClass('badge_msie');
 		$('#content h1').css("font-size","1.8em");
 		$('#title h1').css("font-size","2.3em");
-		
+
 	}else{
 		$('#badge').addClass('badge_moz');
 	}
 
 	// zebra stripe the equipment list
 	$('.zebra tr:odd').addClass('high');
-	
+
 	//highlight the row
 	$('.zebra tr').hover(
 		function(){ if (! ($(this).hasClass('header'))){ $(this).addClass('hovered');} },
 	        function(){ if (! ($(this).hasClass('header'))){$(this).removeClass('hovered');} }
 	);
-	
+
 	//fancybox stuffs
 	$("a.fblink").fancybox({
 		'transitionIn'	:	'elastic',
 		'transitionOut'	:	'elastic',
-		'speedIn'	:	600, 
-		'speedOut'	:	200, 
+		'speedIn'	:	600,
+		'speedOut'	:	200,
 		'overlayShow'	:	true,
 		'overlayOpacity':	.5
 	});
