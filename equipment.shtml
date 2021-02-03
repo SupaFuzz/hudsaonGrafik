@@ -2,7 +2,7 @@
 		<div id="title">
 			<h1>Parts and Used Equipment</h1>
 		</div>
-	
+
 		<!-- header menu -->
 		<div id="menu">
 			<ul>
@@ -15,10 +15,10 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<div id="content">
-	
-		<p>We have many parts in stock, and many more available not listed here. If you don't see something you're looking for, give us a call! All equipment is actually in stock and ready for shipment!  Training and installation is available for an additional cost.  
+
+		<p>We have many parts in stock, and many more available not listed here. If you don't see something you're looking for, give us a call! All equipment is actually in stock and ready for shipment!  Training and installation is available for an additional cost.
                  <p>***Some spare parts items reflect the exchange price, meaning we must get the old part back, such as laser diodes and mirror motors.
         <ul>
         	<li><strong>U.S. Tel.:</strong>  +1-404-849-4570</li>
@@ -27,10 +27,11 @@
 
 	<h2>Product Inventory</h2>
 	<?php csv_table('equipment_list', './data/product_inventory.csv'); ?>
-	
+
 	<h2>Parts Inventory</h2>
 	<?php csv_table('parts_list', './data/parts_inventory.csv'); ?>
-	
-	
-	
+
+	<h2>Consumables Inventory</h2>
+	<?php csv_table('parts_list', './data/parts_inventory.csv'); ?>
+
 	</div>
