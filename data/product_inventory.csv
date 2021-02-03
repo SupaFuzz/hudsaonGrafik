@@ -1,14 +1,7 @@
-name,disposition,price,in stock, picture filename
-L330 film imagesetter ,used,"$ 1,500 (usd)",1,
-Eagle RIP v. 4.2 for film recorder or 1 bit Tiff generator,new,"$ 3,500 (usd)",unlimited,
-Xitron Navigator RIP for film recorder,new,"$ 4,500 (usd)",unlimited,
-Primesetter 74 w/ online G&J processor / Delta RIP,DEMO,"$20,000 (usd)",1, Prime74_Demo_Unit_Testing_Stage.jpg
-Quicksetter 350 / online proc. / QuickRIP,sold,"$14,000 (usd)",1,
-S3300 scanner with Linocolor 6.0,used,"$ 6,000 (usd)",2,S3300.jpg
-Silverfast Ai Studio for driving high end scanner,new,"$ 1,800 (usd)",unlimited,
-Primescan D8400 with Mounting Station / Newcolor,used,"$19,000 (usd)",1,Primescan D8400.jpg
-Tango vertical drum scanner w/ Linocolor for OS9,used,"$15,000 (usd)",2,1998 Tango.jpg
-S3900 scanner with v. 13.4 software,used,"$15,000 (usd)",2,S3900.jpg
-Nexscan flatbed scanner w/ Newcolor (PC) or Linocolor,used,"$  7,500 (usd)",5,nexscan2.gif
-Single Auto Loader for Topsetter 102 Classic (2001),used,"$   5,500 (usd)",2,Topsetter 102 Single Autoloader.jpg
-Single Auto Loader for Topsetter 74 Classic (2001),used,"$   5,500 (usd)",1,
+"name","disposition","price","in stock"," picture filename"
+"Tango","refurbished","€ 9500 EUR",1,"tango.png"
+"Primescan D7100","refurbished","€ 12,500 EUR",1,"primescan_D7100.png"
+"Tango XL","refurbished","€ 18,500 EUR",1,"tangoXL.png"
+"Primescan D8200","refurbished","€ 21,500 EUR",1,"pretty.png"
+"Primescan D8400","refurbished"," € 32,500 EUR",1,"D8400.png"
+"Chromagraph S3400","refurbished"," € 24,500 EUR",1,"pretty.png"
