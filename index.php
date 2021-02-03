@@ -51,9 +51,9 @@
 							echo '<strong>in stock: </strong>' . htmlentities($data[$c+3]) . '</p>';
 							echo '<div id="ordering">';
 							echo '<i><strong>ordering info:</strong></i>';
-							echo 'call Karl or Sonja @<br />';
-							echo '<ul><li>European Tel.: +49-431-530-2962</li>';
-							echo '<li>U.S. Tel.: +1-404-849-4570</li></ul></div>';
+							echo 'call Karl @<br />';
+							echo '<ul><li>European Tel.: +49-178-470-1991 (WhatsApp)</li>';
+							echo '<li>U.S. Tel.: +1-678-208-5844 (voice &amp; text)</li></ul></div>';
 
 						echo '</div></div>';
 						echo '</td>';
