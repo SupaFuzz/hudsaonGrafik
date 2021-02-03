@@ -32,6 +32,6 @@
 	<?php csv_table('parts_list', './data/parts_inventory.csv'); ?>
 
 	<h2>Consumables Inventory</h2>
-	<?php csv_table('parts_list', './data/parts_inventory.csv'); ?>
+	<?php csv_table('parts_list', './data/consumables_inventory.csv'); ?>
 
 	</div>
