@@ -207,8 +207,9 @@ $(document).ready(function(){
 
 <div id="centerwrap">
 
+	<!--
 	<div id="badge" class="hidem"><a href="<?php echo $myDir;?>?p=diodes" title="diodes">Refurbished Laser Diodes</a></div>
-
+	-->
 	<div id="header">
 		<!-- address -->
 		<div id="address">
