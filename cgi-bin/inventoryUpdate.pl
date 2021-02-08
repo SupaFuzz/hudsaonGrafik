@@ -18,11 +18,15 @@ print "<div class='data'>\n";
 #}
 
 ## this, unfortunately is merely the filename
-## $q->param('inventoryCSVFile')
+$q->param('inventoryCSVFile');
 
-## lets try this
-print $q->upload('inventoryCSVFile') . "\n";
-
+## this does not work
+#print $q->upload('inventoryCSVFile') . "\n";
+open (IN, $q->upload('inventoryCSVFile'));
+my $g = join('', <IN>);
+close(IN);
+print $g . "\n";
+#print $q->upload('inventoryCSVFile') . "\n";
 
 # ok y'know what, this is a pain in the arse
 # thinking I'm just gonna go full REST and take
