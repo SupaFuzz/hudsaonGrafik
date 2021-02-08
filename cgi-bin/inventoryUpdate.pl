@@ -12,10 +12,16 @@ print "Content-type: text/html\n\n";
 print "<h1>", time(), "</h1>\n";
 print "<div class='data'>\n";
 
-my @names = $q->param;
-foreach my $name (@names){
-    print "<strong>" . $name . ": </strong><span>" . $q->param($name) . "</span><br>\n";
-}
+#my @names = $q->param;
+#foreach my $name (@names){
+#    print "<strong>" . $name . ": </strong><span>" . $q->param($name) . "</span><br>\n";
+#}
+
+## this, unfortunately is merely the filename
+## $q->param('inventoryCSVFile')
+
+## lets try this
+print $q->upload('inventoryCSVFile') . "\n";
 
 
 # ok y'know what, this is a pain in the arse
