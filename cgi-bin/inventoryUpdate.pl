@@ -14,7 +14,7 @@ print "<div class='data'>\n";
 
 my @names = $q->param;
 foreach my $name (@names){
-    print "<span>" . $name . "</span><br>\n";
+    print "<span>" . $q->param($name) . "</span><br>\n";
 }
 
 
