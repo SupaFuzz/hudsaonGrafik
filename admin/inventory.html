@@ -16,6 +16,13 @@
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function(evt){
                 // insert thy shenannigans here
+
+                /*
+                    LOH 1/7/21 @ 1936
+                    inventoryUpdate.pl needs to be hacked together next
+                    literally, just push a file
+                */
+
             });
         </script>
     </head>
@@ -23,7 +30,7 @@
         <h1> test </h1>
         <form action="../cgi-bin/inventoryUpdate.pl" method="post">
             <label for="inventoryFile">select spreadsheet file:</label>
-            <input type="file" id="inventoryFile" name="Inventory CSV File" accept="text/csv">
+            <input type="file" id="inventoryFile" name="inventoryCSVCFile" accept="text/csv">
             <input type="submit" value="Upload">
         </form>
     </body>
