@@ -21,6 +21,12 @@
                     LOH 1/7/21 @ 1936
                     inventoryUpdate.pl needs to be hacked together next
                     literally, just push a file
+
+                    RESUME 1/15/21 @ 1840
+                    well, turns out it needs to be a mod_perl location handler
+                    in order to get at the file upload in a decent way.
+
+                    see hgUploader repo
                 */
 
             });
@@ -28,7 +34,7 @@
     </head>
     <body>
         <h1> test </h1>
-        <form action="../cgi-bin/inventoryUpdate.pl" method="post">
+        <form action="./uploader" method="post">
             <label for="inventoryFile">select spreadsheet file:</label>
             <input type="file" id="inventoryFile" name="inventoryCSVFile" accept="text/csv">
             <input type="submit" value="Upload">
