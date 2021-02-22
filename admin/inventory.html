@@ -12,22 +12,25 @@
         <link rel="icon" type="image/png" href="./gfx/favicon-32-32.svg">
         <link rel="stylesheet" type="text/css" href="../hudson.css">
 
+        <!-- those crazy libs -->
+        <script src="./lib/tonicCore.js" type="text/javascript"></script>
+        <script src="./lib/tcApplicationCore.js" type="text/javascript"></script>
+        <script src="./lib/hudsonGrafikAdmin.js" type="text/javascript"></script>
+
         <!-- start it up -->
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", function(evt){
                 // insert thy shenannigans here
 
-                /*
-                    LOH 1/7/21 @ 1936
-                    inventoryUpdate.pl needs to be hacked together next
-                    literally, just push a file
-
-                    RESUME 1/15/21 @ 1840
-                    well, turns out it needs to be a mod_perl location handler
-                    in order to get at the file upload in a decent way.
-
-                    see hgUploader repo
-                */
+                new hudsonGrafikAdmin({
+                    version: 1,
+                    name:    'Hudsongrafik Admin Console'
+                }).startup().catch(function(error){
+                    throw(error);
+                }).then(function(app){
+                    window.app = app;
+                    console.log("Itsa meeee ... Mario!");
+                });
 
             });
         </script>
