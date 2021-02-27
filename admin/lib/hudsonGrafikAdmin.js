@@ -56,14 +56,63 @@ startup(){
                 an in-place edit widget would kick ass though
                 actually ... as would an adaptation of the formView idea.
                 each column being a field. Or perhaps selecting a row and having
-                a drop in replacement thing I dunno ... 
+                a drop in replacement thing I dunno ...
+
+                RESUME 2/27/21 @ 1403
             */
+            let productTable = that.renderTable(`product_inventory.csv`);
+            if (productTable instanceof Element){ document.body.appendChild(productTable);}
 
             toot(that);
         })
     }));
 }
 
+
+
+
+/*
+    renderTable(dataFileName)
+    render an html table from CSVToArray output
+*/
+renderTable(dataFileName){
+    let that = this;
+
+    // bounce for no datafile
+    if (! (that._dataFiles[dataFileName] instanceof Object)){
+        that.log(`renderTable called for ${dataFileName} | dataFile does not exist or is not yet loaded`);
+        return(null);
+    }
+
+    let div = document.createElement('div');
+    div.className = 'csvTable';
+    div.setAttribute('id', that.getGUID());
+
+    let thead = [];
+    let tbody = [];
+    that._dataFiles[dataFileName].forEach(function(rowb, idx){
+        let row = '<tr>';
+        let tag = (idx == 0)?'th':'td';
+        rowb.forEach(function(col){ row += `<${tag}>${col}</${tag}>`; });
+        row += `</tr>`;
+        if (idx == 0){ thead.push(row); }else{ tbody.push(row); }
+    })
+
+    /*
+        LOH 2/27/21 @ 1434
+        next step is to detect if we've got an image filename and pull that in
+        then figure out how to interact with it.
+    */
+
+    div.insertAdjacentHTML('afterbegin', `
+        <table>
+            <thead>${thead.join('')}</thead>
+            <tbody>${tbody.join('')}</tbody>
+        </table>
+    `);
+
+    return(div);
+}
 
 
 
