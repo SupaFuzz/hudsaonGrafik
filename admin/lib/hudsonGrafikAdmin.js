@@ -59,6 +59,8 @@ startup(){
                 a drop in replacement thing I dunno ...
 
                 RESUME 2/27/21 @ 1403
+
+                RESUME 3/7/21 @204
             */
             let productTable = that.renderTable(`product_inventory.csv`);
             if (productTable instanceof Element){ document.body.appendChild(productTable);}
@@ -91,11 +93,13 @@ renderTable(dataFileName){
     let thead = [];
     let tbody = [];
     that._dataFiles[dataFileName].forEach(function(rowb, idx){
-        let row = '<tr>';
-        let tag = (idx == 0)?'th':'td';
-        rowb.forEach(function(col){ row += `<${tag}>${col}</${tag}>`; });
-        row += `</tr>`;
-        if (idx == 0){ thead.push(row); }else{ tbody.push(row); }
+        if (that.isNotNull(rowb[0])){
+            let row = '<tr>';
+            let tag = (idx == 0)?'th':'td';
+            rowb.forEach(function(col){ row += `<${tag}>${col}</${tag}>`; });
+            row += `</tr>`;
+            if (idx == 0){ thead.push(row); }else{ tbody.push(row); }
+        }
     })
 
     /*

@@ -320,3 +320,18 @@ body {
 	padding:		5px 0 0 25px;
 	clear:			both;
 }
+
+
+/* admin stuff */
+.csvTable td {
+	padding: .25em;
+}
+.csvTable tbody td {
+	text-align: left;
+}
+.csvTable tbody tr {
+	background-color: #E6E6E6;
+}
+.csvTable tbody tr:nth-child(even){
+	background-color: #CCCCCC;
+}
