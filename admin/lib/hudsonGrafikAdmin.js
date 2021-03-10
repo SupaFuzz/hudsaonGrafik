@@ -121,7 +121,7 @@ renderTable(dataFileName){
 
 
 /*
-    CSVToArray( strData, strDelimiter)
+    CSVToArray(strData, strDelimiter)
 	https://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
 */
  CSVToArray( strData, strDelimiter ){
