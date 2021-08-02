@@ -125,7 +125,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Hudson Grafik Service: heidelberg laser diode topsetter 74 102 screen platerite laser diode thermal plate recorder tango primescan herkules pro basic elite linotype hell primesetter mirror motor primesetter 74 primesetter 102 delta tower delta rip desktop publishing printing heidelberger druck maschinen hdd hus prepress plate recorder d7100 d8200 s3900 s3010 s3400 s3300 s3700 s3800</title>
+<title>Hudson Grafik Service: primescan, tango, heidelberg, linotype-hell, drum scanner, film scanner, analog photography</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="KEYWORDS" content="primescan, tango, heidelberg, linotype-hell, drum scanner, film scanner, analog photography" />
