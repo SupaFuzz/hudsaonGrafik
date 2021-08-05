@@ -2,7 +2,7 @@
 		<div id="title">
 			<strong>Specializing in maintenance and repair of prepress equipment manufactured in Kiel, Germany</i></strong>
 		</div>
-	
+
 		<!-- header menu -->
 		<div id="menu">
 			<ul>
@@ -15,7 +15,7 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<div id="content">
 		<div id="left_col">
 			<h1>Supported Machines</h1>
@@ -29,21 +29,16 @@
 					</ul></li>
 				<li>Linotype-Hell Era
 					<ul>
-	
-						<li>Herkules</li>
-						<li>Signasetter</li>
-						<li>Topaz / Topaz 2 / Topaz iX</li>
-						<li>Quickstep / Linoscan 2400 &amp; 2650</li>
-						<li>Tango / Primescan</li>
 
-						<li>S33 / 34 / 35 / 37 / 3900</li>
-						<li>L830 / 930</li>
+						<li>Herkules</li>
+						<li>Tango / Primescan</li>
+						<li>S3400 / S3900</li>
 					</ul></li>
 				<li>Heidelberg Era
 					<ul>
 						<li>Primesetter</li>
 						<li>Topsetter</li>
-	
+
 						<li>Nexscan</li>
 					</ul></li>
 			</ul>
@@ -53,16 +48,16 @@
 			<h1>How Can We Help You ?</h1>
 			<p><strong>Hudson Grafik Service</strong> is a leading global
 			provider of service and support for prepress equipment
-			built by the Hell / Linotype-Hell / Heidelberg companies.</p> 
+			built by the Hell / Linotype-Hell / Heidelberg companies.</p>
 			<p><strong>HGS</strong>  provides its customers
 			with a high level of service at a competitive price.  <strong>HGS</strong> can help you keep those
-			wonderful old &quot;Kieler&quot; machines running for many years 
+			wonderful old &quot;Kieler&quot; machines running for many years
 			to come.</p>
 
 			<p><strong>Please call on HGS
 			for all your parts, service, or used equipment needs! We appreciate your business.</strong></p>
 
-			<img src="./grfx/equipment_icons/primescan_84.jpg" width="83" height="83" alt="primescan 84 icon"/>	
+			<img src="./grfx/equipment_icons/primescan_84.jpg" width="83" height="83" alt="primescan 84 icon"/>
 			<img src="./grfx/equipment_icons/primesetter_102.jpg" width="83" height="83" alt="primesetter 102 icon"/>
 			<img src="./grfx/equipment_icons/tango.jpg" width="83" height="83" alt="tango icon"/>
 			<img src="./grfx/equipment_icons/topsetter_74.jpg" width="83" height="83" alt="topsetter 74 icon"/>

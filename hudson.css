@@ -264,6 +264,12 @@ body {
 	background-color:	#E8D451;
 }
 
+/* 8/5/21 -- hide in-inventory column by request */
+table._list tr td:last-child {
+	display: none;
+}
+
+
 /* EQUIPMENT DETAIL BOX */
 ._detail p {
 	text-align:		left;
