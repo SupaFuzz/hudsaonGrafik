@@ -214,8 +214,8 @@ $(document).ready(function(){
 		<!-- address -->
 		<div id="address">
 			<h1>Hudson Grafik Service, Inc.</h1>
-				<p>530 Collett Ave SW<br/>
-				Mableton, GA. 30126<br/>
+				<p>Atlanta, GA. USA<br/>
+				&nbsp;<br />
 				(678) 208-5844.
 				</p>
 		</div>

@@ -21,7 +21,6 @@
 			<img src="./grfx/equipment_icons/herkules.jpg" width="83" height="83" alt="herkules icon" class="icon"/>
 			<img src="./grfx/equipment_icons/linoscan.jpg" width="83" height="83" alt="linoscan icon" class="icon"/>
 			<img src="./grfx/equipment_icons/topaz.jpg" width="83" height="83" alt="topaz icon" class="icon"/>
-			<img src="./grfx/equipment_icons/signasetter_pro.jpg" width="83" height="83" alt="signasetter pro icon" class="icon"/>
 			<img src="./grfx/equipment_icons/s3900.jpg" width="83" height="83" alt="s3900 icon" class="icon"/>
 		</div>
 		<div id="right_col">
