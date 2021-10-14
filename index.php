@@ -216,7 +216,7 @@ $(document).ready(function(){
 			<h1>Hudson Grafik Service, Inc.</h1>
 				<p>Atlanta, GA. USA<br/>
 				&nbsp;<br />
-				(678) 208-5844.
+				(678) 208-5844
 				</p>
 		</div>
 
@@ -227,12 +227,15 @@ $(document).ready(function(){
 	<div id="footer"></div>
 
 	<div id="footer_menu">
+		<!--
 		<ul>
 			<li id="email"><a href="http://mail.google.com/a/hudsongrafik.com">Web Mail</a></li>
 			<li id="hicox"><a href="http://hicox.com">Hicox Design</a></li>
 			<li id="css"><a href="http://jigsaw.w3.org/css-validator/">CSS</a></li>
 			<li id="xhtml"><a href="http://validator.w3.org/check?uri=referer">XHTML</a></li>
 		</ul>
+		-->
+		&nbsp;
 	</div>
 
 </div>
