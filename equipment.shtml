@@ -39,10 +39,15 @@
 
 	<script>
 		/* brute force hackeration */
-		let fixMe = Array.from(document.querySelectorAll('#consumables_list a.fblink')).filter((el) => {return(el.textContent == "Mounting Foil Sheets (Mylar)")})[0];
+		let fixMe = Array.from(document.querySelectorAll('#consumables_list a.fblink')).filter((el) => {return(el.textContent == "Mounting Foil Sheets (Mylar) [EU]")})[0];
 		if (fixMe instanceof Element){
 			fixMe.classList.remove('fblink');
 			fixMe.href = 'https://www.folex.com/en/printing-industry/index.php?article_id=10&clang=2&produktid=64&aktpkat=26&n=Folanorm+Montage+Film+SF-AS';
+		}
+		let fixxMe = Array.from(document.querySelectorAll('#consumables_list a.fblink')).filter((el) => {return(el.textContent == "Mounting Foil Sheets (Mylar) [USA]")})[0];
+		if (fixxMe instanceof Element){
+			fixxMe.classList.remove('fblink');
+			fixxMe.href = 'https://policrom.com/contacts/';
 		}
 	</script>
 

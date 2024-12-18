@@ -1,5 +1,6 @@
 <?php
 
+
 #function for rendering csv tables
 	function csv_table($id,$file) {
 
@@ -61,8 +62,7 @@
 					#if this is the fifth column, it's the "picture file" column
 					#we just want to skip it
 					}elseif ($c == 4){
-						next
-						;
+						continue;
 					#if this is just one of the other columns, spew it
 					}else{
 						#just a regular column
@@ -83,7 +83,8 @@
 	#get which content to show
 	$p = "main";
 	if (isset($_GET['p'])) {
-		$p = (get_magic_quotes_gpc()) ? $_GET['p'] : addslashes($_GET['p']);
+		//$p = (get_magic_quotes_gpc()) ? $_GET['p'] : addslashes($_GET['p']);
+		$p = addslashes($_GET['p']);
 	}
 
 	$myDir = "/";
