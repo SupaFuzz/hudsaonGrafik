@@ -1,6 +1,6 @@
 <!-- header title -->
 		<div id="title">
-			<strong>Specializing in maintenance and repair of prepress equipment manufactured in Kiel, Germany</i></strong>
+			<span><i>Specializing in sales &amp; service of </i><br/><strong>Heidelberg &amp Linotype-Hell branded High-End Drum & Flatbed Scanners</strong></span>
 		</div>
 
 		<!-- header menu -->
@@ -19,8 +19,12 @@
 	<div id="content">
 		<div id="left_col">
 			<h1>Supported Machines</h1>
-
 			<ul>
+				<li>Tango / Primescan</li>
+				<li>S3400 / S3900</li>
+				<li>Nexscan</li>
+				<li>Topaz I &amp; II</li>
+				<!--
 				<li>Hell Era
 					<ul>
 						<li>CP341 / CP345</li>
@@ -41,6 +45,7 @@
 
 						<li>Nexscan</li>
 					</ul></li>
+					-->
 			</ul>
 		</div>
 		<div id="right_col">
@@ -58,8 +63,8 @@
 			for all your parts, service, or used equipment needs! We appreciate your business.</strong></p>
 
 			<img src="./grfx/equipment_icons/primescan_84.jpg" width="83" height="83" alt="primescan 84 icon"/>
-			<img src="./grfx/equipment_icons/primesetter_102.jpg" width="83" height="83" alt="primesetter 102 icon"/>
+			<img src="./grfx/equipment_icons/linoscan.jpg" width="83" height="83" alt="primesetter 102 icon"/>
 			<img src="./grfx/equipment_icons/tango.jpg" width="83" height="83" alt="tango icon"/>
-			<img src="./grfx/equipment_icons/topsetter_74.jpg" width="83" height="83" alt="topsetter 74 icon"/>
+			<img src="./grfx/equipment_icons/topaz.jpg" width="83" height="83" alt="topsetter 74 icon"/>
 		</div>
 	</div>

@@ -90,6 +90,7 @@ body {
 }
 
 
+
 /* HEADER MENU */
 #menu {
 	display:			block;
@@ -296,7 +297,7 @@ table._list tr td:last-child {
 }
 #euro a {
 	width:		143px;
-	background:	url('./grfx/eu_office-3.gif');
+	background:	url('./grfx/eu_office-4.gif');
 }
 #partners a {
 	width:		108px;
